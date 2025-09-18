@@ -1,41 +1,105 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Halaman Web Sederhana</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f1f1f1;
-            margin: 40px;
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            color: #555;
-        }
-        a {
-            color: blue;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        img {
-            max-width: 300px;
-            border-radius: 10px;
-        }
-    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum HTML</title>
 </head>
 <body>
-
-    <h1>Halo, Dunia!</h1>
-    <p>Ini adalah halaman web HTML sederhana pertamaku.</p>
-
-    <img src="https://via.placeholder.com/300" alt="Contoh Gambar">
-
-    <p>Kunjungi <a href="https://www.instagram.com" target="_blank">Instagram</a> untuk melihat lebih banyak.</p>
-
+    <!-- Konten halaman web akan ditulis di sini -->
 </body>
 </html>
+
+<body>
+    <!-- Judul Halaman atau Bagian -->
+    <h1>Profil Mahasiswa - Ni Made Dina Ayu Purnami</h1>
+
+    <!-- Subjudul untuk Bagian Biografi -->
+    <h2>Biografi</h2>
+    <!-- Paragraf Biografi -->
+    <p>Saya adalah mahasiswa program studi Teknologi Informasi di Universitas 
+Pendidikan Nasional (UNDIKNAS) Denpasar.</p>
+
+    <!-- Subjudul untuk Pendidikan -->
+    <h2>Pendidikan</h2>
+    <!-- Paragraf Pendidikan -->
+    <p>Saat ini saya sedang menempuh semester ketiga di jurusan Teknologi Informasi. 
+Saya sering belajar dengan teman yang sudah mengerti karena saya sulit mengerti.</p>
+</body>
+
+<body>
+    <!-- Menggunakan Hyperlink -->
+    <h2>Kontak Saya</h2>
+    <p>Anda dapat menghubungi saya melalui email di <a
+href="dinaypurnami@gmail.com">nama@domain.com</a>.</p>
+
+    <!-- Menambahkan Gambar -->
+    <h2>Proyek Terakhir</h2>
+    <p>Berikut ini adalah gambar terakhir yang ada digaleri saya:</p>
+    <img src="gambar terakhir.jpg" alt="Gambar terakhir digaleri saya">
+
+    <!-- Hyperlink ke dokumen eksternal -->
+    <p>Untuk informasi lebih lanjut, kunjungi <a href="http://www.domain.com"
+target="_blank">website saya</a>.</p>
+</body>
+
+<body>
+    <!-- Unordered List untuk menampilkan daftar hobi -->
+    <h2>Hobi Saya</h2>
+    <ul>
+        <li>Membaca</li>
+        <li>Bersepeda</li>
+        <li>Fotografi</li>
+    </ul>
+
+    <!-- Ordered List untuk menampilkan proses pendidikan -->
+    <h2>Riwayat Pendidikan</h2>
+    <ol>
+        <li>SD Negeri XYZ</li>
+        <li>SMP Negeri ABC</li>
+        <li>SMA Negeri 123</li>
+    </ol>
+</body>
+
+<body>
+    <!-- Tabel Jadwal Kuliah -->
+    <h2>Jadwal Kuliah Semester Ini</h2>
+    <table border="1">
+        <tr>
+            <th>Hari</th>
+            <th>Mata Kuliah</th>
+            <th>Waktu</th>
+        </tr>
+        <tr>
+            <td>Senin</td>
+            <td>Pemrograman Web</td>
+            <td>08:00 - 10:00</td>
+        </tr>
+        <tr>
+            <td>Selasa</td>
+            <td>Aljabar Linier</td>
+            <td>11:00 - 13:00</td>
+        </tr>
+        <!-- Tambahkan baris lainnya sesuai dengan data jadwal kuliah -->
+    </table>
+</body>
+
+<body>
+    <!-- Formulir Kontak -->
+    <h2>Formulir Kontak</h2>
+    <form action="submit_form.php" method="post">
+        <label for="name">Nama Lengkap:</label>
+        <input type="text" id="name" name="fullname" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="emailaddr" required><br><br>
+
+        <label for="message">Pesan:</label>
+        <textarea id="message" name="usermessage" rows="4"
+required></textarea><br><br>
+
+        <button type="submit">Kirim</button>
+    </form>
+</body>
+
