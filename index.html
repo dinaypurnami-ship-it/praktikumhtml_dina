@@ -65,3 +65,43 @@ target="_blank">website saya</a>.</p>
     </ol>
 </body>
 
+<body>
+    <!-- Tabel Jadwal Kuliah -->
+    <h2>Jadwal Kuliah Semester Ini</h2>
+    <table border="1">
+        <tr>
+            <th>Hari</th>
+            <th>Mata Kuliah</th>
+            <th>Waktu</th>
+        </tr>
+        <tr>
+            <td>Senin</td>
+            <td>Pemrograman Web</td>
+            <td>08:00 - 10:00</td>
+        </tr>
+        <tr>
+            <td>Selasa</td>
+            <td>Pengantar Teknologi Informasi</td>
+            <td>11:00 - 13:00</td>
+        </tr>
+        <!-- Tambahkan baris lainnya sesuai dengan data jadwal kuliah -->
+    </table>
+</body>
+
+<body>
+    <!-- Formulir Kontak -->
+    <h2>Formulir Kontak</h2>
+    <form action="submit_form.php" method="post">
+        <label for="name">Nama Lengkap:</label>
+        <input type="text" id="name" name="fullname" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="emailaddr" required><br><br>
+
+        <label for="message">Pesan:</label>
+        <textarea id="message" name="usermessage" rows="4"
+required></textarea><br><br>
+
+        <button type="submit">Kirim</button>
+    </form>
+</body>
